@@ -177,3 +177,4 @@ select{font:inherit;color:var(--text);background:var(--surface2);border:0;border
 .p-ctrl .pp{box-shadow:0 6px 18px rgba(255,180,0,.35)}
 .hello h1{background:linear-gradient(90deg,var(--text),var(--warm));-webkit-background-clip:text;background-clip:text;color:transparent}
 .round-btn{background:var(--warm)}
+.skipblk{padding:8px 14px;border-radius:999px;background:var(--accent);color:var(--on-accent);font-weight:700;font-size:15px}

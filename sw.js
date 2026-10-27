@@ -1,4 +1,4 @@
-const CACHE='move-8087634840';
+const CACHE='move-e18551b29b';
 const FILES=["./", "app.js", "icon-180.png", "icon-192.png", "icon-512.png", "img.js", "index.html", "manifest.webmanifest", "styles.css"];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',e=>{e.waitUntil((async()=>{for(const k of await caches.keys()) if(k!==CACHE) await caches.delete(k); await self.clients.claim();})());});
