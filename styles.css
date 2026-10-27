@@ -152,3 +152,22 @@ select{font:inherit;color:var(--text);background:var(--surface2);border:0;border
 .done-wrap h1{font-size:34px}
 .p-timer.amrap{min-height:0}
 .p-timer.amrap .num{font-size:min(20vw,84px)}
+
+/* v1.1: format info, exercise rows, detail sheet */
+.fmt-info{font-size:14px;color:var(--muted);margin:8px 2px 0;line-height:1.4}
+.chips.wrap{flex-wrap:wrap}
+.exsec{padding:8px 14px}
+.exsec summary,.exsec-h{display:flex;align-items:center;gap:10px;padding:10px 2px;list-style:none;cursor:pointer;font-size:17px}
+.exsec summary::-webkit-details-marker{display:none}
+.exsec .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);flex:none}
+.exsec .dot.warmup,.exsec .dot.stretch,.exsec .dot.flow{background:var(--light)}
+.exsec .dot.tabata,.exsec .dot.emom,.exsec .dot.amrap{background:var(--warm)}
+.exrow{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:10px 2px;border-top:1px solid var(--line)}
+.exrow .th{width:76px;height:76px;border-radius:14px;flex:none;background:var(--surface2) center/cover no-repeat;display:grid;place-items:center}
+.exrow .th i{font-style:normal;font-size:28px;font-weight:700;color:var(--accent)}
+.exr-t{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.exr-t b{font-size:17px;line-height:1.25}
+.chev{font-size:26px;color:var(--muted);line-height:1}
+.media.big{max-height:none;aspect-ratio:4/3;margin:0}
+.swapbtn{flex:none;margin-top:6px;padding:8px 14px;border-radius:999px;background:var(--surface);box-shadow:var(--shadow);font-weight:650;font-size:15px}
+.amrap-list li[data-ex]{cursor:pointer}
